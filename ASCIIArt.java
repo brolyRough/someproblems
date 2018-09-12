@@ -17,6 +17,8 @@ Output
 # # # # # # # # # #  #   #  # # # #  
 # # # # # # # # # #  #   #  # # # # 
 
+
+https://www.codingame.com/ide/puzzle/ascii-art  
 */
 
 import java.util.ArrayList;
