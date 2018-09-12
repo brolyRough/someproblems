@@ -33,9 +33,11 @@ public class ASCIIArt {
 		Scanner sc = new Scanner(System.in);
 		
 		int width  = sc.nextInt();
+		sc.nextLine();
 		int height = sc.nextInt();
-		
+		sc.nextLine();
 		String text = sc.nextLine().toUpperCase();
+		
 		ArrayList <String>  al1 = new ArrayList <String> ();
 		
 		for(int i =0; i <height; i++) {
@@ -63,7 +65,7 @@ public class ASCIIArt {
 		
 		
 		for(int j = 0; j <height ; j++) {
-			for(int k= 0; j <indexes.size(); k++) {
+			for(int k= 0; k <indexes.size(); k++) {
 				System.out.print(al1.get(j).substring(indexes.get(k)*width, 
 						indexes.get(k)*width + width));
 			}
@@ -76,7 +78,5 @@ public class ASCIIArt {
 		
 		
 		
-		
 	}
-	
 }
